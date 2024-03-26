@@ -8,7 +8,7 @@ body {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	width: 30%;
+	/* width: 20%; */
 	background: linear-gradient(135deg, #00feba, #5b548a);
 	/* margin: auto auto; */
 	padding: 20px;
@@ -102,4 +102,5 @@ body {
 	color: aliceblue;
 	margin-top: 0px;
 	margin-bottom: -10px;
+	margin-right: 20px;
 }
