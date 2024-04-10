@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Notes App Vanila Js</title>
+		<link rel="stylesheet" href="index.styles.css" />
+	</head>
+	<body>
+		<div class="main-viewport">
+			<div class="container">
+				<h1 class="notes-heading"><img src="images/notes.png" />Notes</h1>
+				<button id="create-notes" class="create-notes">
+					<img src="images/edit.png" /> Create Notes
+				</button>
+				<div id="parent-notes">
+					<div class="notes" id="notes">
+						<textarea
+							id="text-input"
+							class="text-input"
+							placeholder="Enter text"
+						></textarea>
+						<button id="delete-notes"><img src="images/delete.png" /></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
